@@ -1,11 +1,12 @@
 #include<stdio.h>
 /**
- *Desciption:
- *main - prints without using printf 
+ *Desciption: this program print an exact sentence
+ *main - prints without using printf
  *using print.
- *The program return 0
+ *Return: 0 every time
  */
-int main(void){
- puts("\"Programming is like building a multilingual puzzle");
- return (0);
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
