@@ -1,8 +1,7 @@
 #include<stdio.h>
+#include<string.h>
 /**
- *Desciption: this program print an exact sentence
  *main - prints without using printf
- *using print.
  *Return: 0 every time
  */
 int main(void)
