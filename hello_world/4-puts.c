@@ -1,8 +1,13 @@
 #include<stdio.h>
 
-int main (){
+/* Desciption:
+ * This program prints a sentence followed by a new line.
+ * The program return 0.
+ */
 
-	puts("\"Programming is like building a multilingual puzzle");
+int main (void){
+
+	puts("\"Programming is like building a multilingual puzzle/n");
 
 	return (0);
 
