@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  *main - print size of various types whit printf
- *return: 0 every time
+ *Return: 0 every time
  */
 int main(void)
 {
