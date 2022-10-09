@@ -11,10 +11,10 @@ long int sLongInt;
 long long int sLongLongInt;
 float sFloat;
 
-printf("sixe of a char: %i bite(s)\n", sizeof(sChar));
-printf("sixe of an int: %i bite(s)\n", sizeof(sInt));
-printf("sixe of a long int: %i bite(s)\n", sizeof(sLongInt));
-printf("sixe of a long long int: %i bite(s)\n", sizeof(sLongLongInt));
-printf("sixe of a float: %i bite(s)\n", sizeof(sFloat));
+printf("Size of a char: %i byte(s)\n", sizeof(sChar));
+printf("Size of an int: %i byte(s)\n", sizeof(sInt));
+printf("Size of a long int: %i byte(s)\n", sizeof(sLongInt));
+printf("Size of a long long int: %i byte(s)\n", sizeof(sLongLongInt));
+printf("Size of a float: %i byte(s)\n", sizeof(sFloat));
 return (0);
 }
