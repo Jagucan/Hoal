@@ -12,7 +12,7 @@ long long int sLongLongInt;
 float sFloat;
 
 printf("sixe of char: %i bite(s)\n", sizeof(sChar));
-printf("sixe of int: %i bite(s)\n", sizeof(sIntsInt));
+printf("sixe of int: %i bite(s)\n", sizeof(sInt));
 printf("sixe of long int: %i bite(s)\n", sizeof(sLongInt));
 printf("sixe of long long int: %i bite(s)\n", sizeof(sLongLongInt));
 printf("sixe of float: %i bite(s)\n", sizeof(sFloat));
