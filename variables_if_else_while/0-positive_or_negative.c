@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/**
- *main - assign a random number
- *Return: 0 every time
- *main  contains if and else
- */
+ /**
+  * main - assign a random number
+  * Return: 0 every time
+  * main  contains if and else
+  */
 
 int main(void)
 {
