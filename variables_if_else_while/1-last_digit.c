@@ -12,7 +12,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	j = n % 10
+	j = n % 10;
 	if (j == 0)
 		{
 		printf("Last digit of %i is %i and is 0\n", j, n);
