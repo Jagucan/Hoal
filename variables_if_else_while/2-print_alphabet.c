@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - contain putchar not printf
+ * main contain putchar not printf
  * return 0 every time
  */
 
 
 int main(void)
 {
-	char j = 'a';
+	char j;
+	
+	j = 'a';
 
-	while (j<='a')
+	while (j <= 'a')
 	{
 		putchar(j);
 		j++;
