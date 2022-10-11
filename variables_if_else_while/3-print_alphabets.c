@@ -11,14 +11,14 @@
 	j = 'a';		
 	j = 'A';
 
-	while (j<='a');
+	while (j <= 'z')
 	{
-	putchar("%j\n", j);
+	putchar(j);
 	j++;
 	}
-	while (j<='A');
+	while (j <= 'Z')
 	{
-	putchar("%j\n", j);
+	putchar(j);
 	j++;
 	}
 	putchar('\n')
