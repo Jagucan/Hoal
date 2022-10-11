@@ -2,8 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main contain if and else */
-/* return 0 every time */
+/**
+ *main - print the last digit
+ *Return: 0 every time
+ *main contain if and printf
+ */
 
 int main(void)
 {
