@@ -5,11 +5,11 @@
  * Return. 0 every time
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char J;
 
-	for (J = 'a'; J <= 'z'; J++)
+	for (J = '97'; J <= '123'; J++)
 	{
 		_putchar(J);
 	}
