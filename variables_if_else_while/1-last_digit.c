@@ -5,10 +5,11 @@
 /* main contain if and else */
 /* return 0 every time */
 
- int main(void)
-{	
+int main(void)
+{
 	int n;
 	int j;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
