@@ -7,20 +7,19 @@
 
  int main(void)
 {
-	char j;
-	j = 'a';		
-	j = 'A';
 
-	while (j <= 'z')
-	{
-	putchar(j);
-	j++;
-	}
-	while (j <= 'Z')
-	{
-	putchar(j);
-	j++;
-	}
-	putchar('\n')
-	return (0);
+	char j;
+	
+	for (j = 'a'; j <= 'z'; j++)
+        {
+		putchar(j);
+		putchar('\n');
+        }
+	
+	for (j = 'A'; j <= 'Z'; j++)
+        {
+		putchar(j);
+		putchar('\n');
+        }
+return (0);
 }
