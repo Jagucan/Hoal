@@ -9,7 +9,12 @@ int main(void)
 {
 	char j;
 
-	for (j = '0' && 'a'; j <= '9' &&  'f'; j++)
+	for (j = '0'; j <= '9'; j++)
+	{
+		putchar(j);
+	}
+	
+	for (j = 'a'; j <= 'f'; j++)
 	{
 		putchar(j);
 	}
