@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - contain putchar for prints the alphabet
+ * main - prints an alphabet in lowercase
  * Return: 0 every time
- * main contain for and putchar
+ * main contain putchar
  */
 
 int main(void)
