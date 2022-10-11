@@ -11,7 +11,7 @@ int main(void)
 	
 	j = 'a';
 
-	while (j <= 'z')
+	for(j <= 'z')
 		putchar(j);
 		j++;
 
