@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main contain putchar and print an alphabet
- * Return 0 every time
+ * main - print an alphabet in lowercases and uppercase
+ * Return: 0 every time
+ * main contain putchar and for
  */
 
 int main(void)
 {
 
 	char j;
+	
 	for (j = 'a'; j <= 'z'; j++)
-        {
+	{
 		putchar(j);
         }
 	for (j = 'A'; j <= 'Z'; j++)
