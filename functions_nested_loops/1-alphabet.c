@@ -5,7 +5,7 @@
  * Return. 0 every time
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char J;
 
