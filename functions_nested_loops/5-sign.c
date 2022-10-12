@@ -3,7 +3,7 @@
 /**
  * print_sign - prints sign of the var n and return the corresponding number
  * @n: is an caracter
- * return: 0 every time 
+ * return: 1 if n > 0, 0 if n = 0 and -1 if n < 0
  */
 
 int print_sign(int n)
