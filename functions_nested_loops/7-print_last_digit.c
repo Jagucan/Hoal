@@ -5,7 +5,7 @@
  *
  */
 
-int print_last__digit(int x)
+int print_last_digit(int x)
 {
 	x = num % 10;
 
