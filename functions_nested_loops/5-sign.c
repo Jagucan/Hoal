@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - prints sign of n and return an number
+ * print_sign - prints sign of the var n and return the corresponding number
  * @n: is an caracter
  * return: 1, 0 or -1 if n is greater or less than zero
  */
