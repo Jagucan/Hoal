@@ -9,13 +9,13 @@
 
 int _abs(int num)
 {
-	if (num < '0')
+	if (num < 0)
 	{
 		num = num * -1;
 		return (num);
 	}
 
-	else (num > '0')
+	else
 	{
 		return (num);
 	}
