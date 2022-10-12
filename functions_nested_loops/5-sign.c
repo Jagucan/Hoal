@@ -3,10 +3,7 @@
 /**
  * print_sign - print the singn of a number.
  * @n: is an caracter.
- * return: 
- * 	1 if n is greather than 0,
- * 	0 if n is 0,
- * 	-1 if n less than 0.
+ * return: 1 if n is greather than 0, 0 if n is 0, -1 if n less than 0.
  */
 
 
