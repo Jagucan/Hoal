@@ -5,9 +5,9 @@
  *
  */
 
-int print_last__digit(int num)
+int print_last__digit(int x)
 {
-	num = num % 10;
+	x = num % 10;
 
 	if (num < 0)
 		num *= -1;
