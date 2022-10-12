@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * _abs - absolute value of an integer
+ * _abs - print absolute value of an integer
  * @num: is an number
  * return: absolute value of num
  */
