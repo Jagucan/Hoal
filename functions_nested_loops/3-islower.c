@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lowercase
  * c - character type letter
- * __islower return 1 for lowercase an 0 for no lowercase
+ * Return: 1 if c is lowercase and 0 otherside
  */
 
 int _islower(int c)
