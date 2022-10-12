@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - print the singn of a number using _putchar
+ * print_sign - print the singn of a number.
  * @n: is an caracter
  * return: 1 if n > 0, 0 if n = 0 and -1 if n < 0
  */
