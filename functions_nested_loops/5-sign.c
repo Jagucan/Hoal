@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - print sign and return an number positive or negative 
+ * print_sign - print and singn using _putchar 
  * @n: is an caracter
  * return: 1 if n > 0, 0 if n = 0 and -1 if n < 0
  */
