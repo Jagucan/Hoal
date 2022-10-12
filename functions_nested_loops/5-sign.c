@@ -3,8 +3,12 @@
 /**
  * print_sign - print the singn of a number.
  * @n: is an caracter.
- * return: 1 if n > 0, 0 if n = 0 and -1 if n < 0.
+ * return: 
+ * 	1 if n is greather than 0,
+ * 	0 if n is 0,
+ * 	-1 if n less than 0.
  */
+
 
 int print_sign(int n)
 {
