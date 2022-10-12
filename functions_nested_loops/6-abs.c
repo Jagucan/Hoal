@@ -2,9 +2,9 @@
 #include <math.h>
 
 /**
- * _abs - print absolute value of an integer
- * @num: is an number
- * return: absolute value of num
+ * _abs - compute the absolute value of an integer.
+ * @num: is an number.
+ * return: absolute value of num.
  */
 
 int _abs(int num)
