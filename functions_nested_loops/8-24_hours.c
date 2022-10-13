@@ -22,13 +22,13 @@ void jack_bauer(void)
 					if (h1 == '2' && h2 >= '4')
 					{
 						break;
-						_putchar(h1);
-						_putchar(h2);
-						_putchar(':');
-						_putchar(m1);
-						_putchar(m2);
-						_putchar('\n');
 					}
+					_putchar(h1);
+					_putchar(h2);
+					_putchar(':');
+					_putchar(m1);
+					_putchar(m2);
+					_putchar('\n');
 				}
 			}
 		}
