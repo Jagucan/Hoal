@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - priints all natural numbers from n to 98.
- * @n - is an number.
+ * @n: is an number.
  * Return. there is no return to describe.
  */
 
