@@ -1,0 +1,6 @@
+# all: - objectives
+# x:main... - dependencies
+# --> gcc... - instructions
+ 
+all: main.c school.c
+	gcc -o all main.o school.o
