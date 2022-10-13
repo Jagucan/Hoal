@@ -3,4 +3,4 @@
 # --> gcc... - instructions
  
 all: main.c school.c
-	gcc -o all main.o school.o
+	gcc all main.c school.c -o school
