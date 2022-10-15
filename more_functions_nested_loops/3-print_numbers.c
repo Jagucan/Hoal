@@ -1,10 +1,9 @@
 #include "main.h"
 #include <unistd.h>
-#include "putchar.h"
 
 /**
- *
- *
+ * print_numbers - Print number from 0 to 9.
+ * @num: is an number.
  */
 
 void print_numbers(void)
