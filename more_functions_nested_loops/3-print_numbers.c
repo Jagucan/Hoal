@@ -3,7 +3,7 @@
 
 /**
  * print_numbers - Prints the numbers, from 0 to 9.
- * @num: Is an number.
+ * @num: Is an integer number. 
  */
 
 void print_numbers(void)
