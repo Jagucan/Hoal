@@ -9,7 +9,8 @@ void times_table(void)
 
 	int row = 0;
 	int col = 0;
-	int num = row * col;
+	int num = (row * co)l;
+
 
 	while(row <= 9)
 	{
@@ -23,7 +24,7 @@ void times_table(void)
 		{
 			col++;
 			_putchar((num % 10) + '0');
-
+			
 			if ((num / 10) > 0)
 			{
 				_putchar((num / 10) + '0');
