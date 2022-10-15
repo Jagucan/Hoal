@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * print_numbers - Print number from 0 to 9.
+ * print_numbers - Prints the numbers, from 0 to 9.
  * @num: Is an number.
  */
 
