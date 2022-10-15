@@ -13,9 +13,6 @@ void more_numbers(void)
 
 	while (v <= 9)
 	{
-		v = 0;
-		v++;
-
 		while (num <= 14)
 		{
 			if (num > 9)
@@ -23,6 +20,8 @@ void more_numbers(void)
 			_putchar(num % 10 + '0');
 			num++;
 		}
-			_putchar('\n');
+		num = 0;
+		v++;
+		_putchar('\n');
 	}
 }
