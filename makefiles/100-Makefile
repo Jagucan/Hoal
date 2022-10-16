@@ -6,8 +6,8 @@ RE     = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 RE     = $(MR)
 
-all : school.o main.o
-	$(CC) school.o main.o -o $(NAME)
+all : $(SRC:.c=.o)
+	$(CC) $(SRC:.c=.o) -o $(NAME)
 
 school.o : school.c m.h
 
