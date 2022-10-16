@@ -5,14 +5,16 @@ NAME   = school
 RE     = rm -f 
 CFLAGS = -Wall -Werror -Wextra -pedantic
 RE     = $(MR)
+OBJ_S  = school.c
+OBJ_M  = main.c
 
 all : $(SRC:.c=.o)
 	$(CC) $(SRC:.c=.o) -o $(NAME)
 
-school.o : school.c m.h
+$(OBJ_S) : school.c m.h
 
 
-main.o : main.c m.h
+%(OBJ_M) : main.c m.h
 
 
 .PHONY : clean oclean fclean re all
