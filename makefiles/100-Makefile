@@ -10,10 +10,10 @@ all : school.o main.o
 	$(CC) school.o main.o -o $(NAME)
 
 school.o : school.c m.h
-	gcc -c -Wall -Werror -Wextra -pedantic school.c
+
 
 main.o : main.c m.h
-	gcc -c -Wall -Werror -Wextra -pedantic main.c
+
 
 .PHONY : clean oclean fclean re all
 
