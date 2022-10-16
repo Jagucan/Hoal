@@ -2,7 +2,8 @@
 
 /**
  * int main - Prints the numbers from 1 to 100.
- * @num: Are the number form 1 to 100.
+ * @num: Is the range of numbers.
+ * Return: 0 every time.
  */
 
 int main(void)
