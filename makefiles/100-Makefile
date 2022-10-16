@@ -4,7 +4,7 @@ OBJ    = $(SRC:.c=.o)
 NAME   = school
 RE     = rm -f 
 CFLAGS = -Wall -Werror -Wextra -pedantic
-RE     = $(MR)
+RE     = $(RM)
 OBJ_S  = school.c
 OBJ_M  = main.c
 
