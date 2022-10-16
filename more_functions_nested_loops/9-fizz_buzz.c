@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+/**
+ * int main - Prints the numbers from 1 to 100.
+ * @num: Are the number form 1 to 100.
+ */
+
 int main(void)
 {
-	
+
 	int num;
 
 	for (num = 1; num <= 100; num++)
