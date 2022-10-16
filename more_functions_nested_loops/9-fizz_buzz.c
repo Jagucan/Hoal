@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * int main - Prints the numbers from 1 to 100.
- * @num: Is the range of numbers.
+ * main - Prints the numbers from 1 to 100.
  * Return: 0 every time.
  */
 
