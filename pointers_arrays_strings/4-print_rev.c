@@ -19,7 +19,7 @@ void print_rev(char *s)
 	if (rev != 0)
 	{
 		p = *s--;
-		
+
 		while (rev > 0)
 		{
 			p = *s--;
