@@ -2,12 +2,14 @@
 #include <stdio.h>
 
 /**
- * _stslen - returns the length of a string.
+ * _strlen - returns the length of a string.
+ * @s: Is an pointer.
+ * Return: The length of a streng.
  */
 
 int _strlen(char *s)
 {
-	
+
 	int ls = 0;
 	int st = *s;
 
