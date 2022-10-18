@@ -15,7 +15,7 @@ void _puts(char *str)
 
 		if (s > 0)
 		
-			_putchar(s - 1);
+			_putchar(s);
 	}
 
 	_putchar(10);
