@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 	char s = *str;
 
-	while (s != '\0')
+	while (s != '\0' && ' ')
 	{
 
 		s = *str++;
