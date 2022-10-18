@@ -2,6 +2,7 @@
 
 /**
  * _puts - prints a string, followed by a new line.
+ * @str: Is an pointer.
  */
 
 void _puts(char *str)
