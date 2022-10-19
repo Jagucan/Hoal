@@ -16,6 +16,10 @@ void puts2(char *str)
 		num++;
 
 	for (i = 0; i < num; i += 2)
-		putchar(str[i]);
-		putchar('10');
+	{
+		_putchar(str[i]);
+
+	}
+
+	_putchar('\n');
 }
