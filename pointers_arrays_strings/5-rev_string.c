@@ -11,15 +11,17 @@ void rev_string(char *s)
 	char let;
 
 	i = 0;
-	f = _string(s) - 1;
+	f = 0;
 
-	while (f >= i)
+	while (*(s + i)++);
+		let++;
+
+	for (i = f  - 1; i >= f / 2; i--)
 	{
-		let = *(s + f);
-		*(s + f) = *(s + i);
-		*(s + i) = let;
-		f--;
-		i++;
+
+		let = s[i];
+		s[i] = s[f- i - 1];
+		s[f - i - 1] = let;
 
 	}
 }
