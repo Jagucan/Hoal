@@ -2,25 +2,18 @@
 
 /**
  * _strcpy - Copies the string pointed to by src.
- * @dest, @src: the are points.
+ * @dest, @src: The are points.
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int sd = 0;
-	int a;
+	int a = 0;
 
-	while (src[sd] != '\0')
+	for (a = 0; src[a] != '\0'; a++)
 	{
-		sd++;
-	}
-
-	for (a = 0; a < sd; a++)
-	{
-		dest[sd] = src[sd];
+		dest[a] = src[a];
 	}
 
 	dest[a] = '\0';
-
 	return (dest);
 }
