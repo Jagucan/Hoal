@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcpy - Copy the string pointer dest to src. 
+ * _strcpy - Copy the string pointer dest to src.
  * @dest: Is a pointer.
  * @src: Is an another pointer.
+ * Return: The value of pointer dest.
  */
 
 char *_strcpy(char *dest, char *src)
