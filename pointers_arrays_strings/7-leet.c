@@ -6,23 +6,24 @@
  * Return: Return pointer a.
  */
 
-char *leet(char *a)
+char *leet(char *s1)
 {
-	int i = 0; 
-	int n;
-	char s1[] = {65, 97, 69, 101, 79, 111, 84, 116, 76, 108};
-	char s2[] = {52, 52, 51, 51, 48, 48, 55, 55, 49, 49};
+	int i = 0;
+	int n = 0;
+	char s2[] = {65, 97, 69, 101, 79, 111, 84, 116, 76, 108};
+	char s3[] = {52, 52, 51, 51, 48, 48, 55, 55, 49, 49};
 
-	while (a[i] != '\0')
+	while (s1[i] != '\0')
 	{
-		a++;
+		i++;
 
-		for (n = 0; n <= 8; n++)
+		while (n <= 8)
 		{
-			if (a[i] == s1[n])
-				a[i] = s2[n];
+			n++;
+			if (s1[i] == s2[n])
+				s1[i] = s3[n];
 		}
 	}
 
-	return (a);
+	return (s1);
 }
