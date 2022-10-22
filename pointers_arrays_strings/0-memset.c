@@ -5,12 +5,12 @@
  * @s: Is a pointer.
  * @b: Var type char.
  * @n: Unsigne data type.
- * Return: Return s
+ * Return: Returns a pointer to the memory area s.
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int a;
+	unsigned int a;
 
 	for (a = 0; a < n; a++)
 	{
