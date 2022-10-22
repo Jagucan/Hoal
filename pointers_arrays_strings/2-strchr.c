@@ -6,14 +6,13 @@
  * @c: Var type char.
  * Return: Returns a pointer
  */
+
 char *_strchr(char *s, char c)
 {
 
 	if (*s == c)
-	{
 		return (s);
-		*s++;
-	}
+	while (*s++);
 
 	return (0);
 }
