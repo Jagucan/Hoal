@@ -14,5 +14,7 @@ void _puts_recursion(char *s)
 		/* Change to the next character in the string*/
 		_puts_recursion(s + 1);
 	}
+
 	_putchar('\n');
+
 }
