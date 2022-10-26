@@ -7,7 +7,7 @@
 
 void _puts_recursion(char *s)
 {
-	if (*s)
+	if (*s != '\0')
 	{
 		/* Print content of pointer s */
 		_putchar(*s);
