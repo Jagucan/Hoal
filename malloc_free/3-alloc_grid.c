@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -28,14 +27,12 @@ int **alloc_grid(int width, int height)
 		{
 			while (a >= 0)
 			{
-				free (gr[a]);
+				free(gr[a]);
 				a--;
 			}
-
-		free (gr);
+		free(gr);
 		return (NULL);
 		}
 	}
-
-	return (gr) ; 
+	return (gr);
 }
