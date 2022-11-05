@@ -38,12 +38,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (a = 0; a < length1; a++)
 		pointer[a] = s1[a];	
 
-	for (i = 0; a < length2; i++)
+	for (a = lenght1; a < length1 + n; a++)
 	{
 		pointer[a] = s2[i];
-		a++;
+		i++;
 	}
-	a++;
-	pointer[a] = '\0';
+	pointer[length1 + n] = '\0';
 	return (pointer);
 }
