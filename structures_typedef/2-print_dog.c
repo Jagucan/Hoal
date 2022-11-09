@@ -5,7 +5,7 @@
  * @d: Is a structure.
 */
 
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d)
 	{
