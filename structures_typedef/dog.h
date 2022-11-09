@@ -6,6 +6,9 @@
 
 /**
  * struct dog - Is a structure
+ * @name: Is a string.
+ * @age: Is a float.
+ * @owner: Is a string.
  */
 
 struct dog
