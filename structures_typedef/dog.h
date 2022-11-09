@@ -4,7 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Structures */
+/**
+ * struct dog - Is a structure
+ */
+
 struct dog
 {
 	char *name;
