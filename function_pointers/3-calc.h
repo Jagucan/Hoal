@@ -4,6 +4,7 @@
 /**
  * Libraries.
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
@@ -14,6 +15,7 @@
  * @op: The operator
  * @f: The function associated
  */
+
 typedef struct op
 {
 	char *op;
@@ -23,6 +25,7 @@ typedef struct op
 /**
  * Prototypes.
 */
+
 int (*get_op_func(char *s))(int, int);
 int op_add(int a, int b);
 int op_sub(int a, int b);
