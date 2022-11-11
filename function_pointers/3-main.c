@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	result = op(num1, num2);
+	result = (*op)(num1, num2);
 	printf("%d\n", result);
 	return (0);
 }
