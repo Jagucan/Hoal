@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * Performs simple operations.
+ * main - Performs simple operations.
  * @argc: Is the number of argument.
  * @argv: It an array.
  * Return: Return o;
