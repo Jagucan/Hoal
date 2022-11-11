@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int num1 = 0, num2 = 0;
-	char *op == NULL;
+	char *op = NULL;
 
 	if (argc != 4)
 	{
