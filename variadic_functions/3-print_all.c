@@ -27,7 +27,7 @@ void print_str(va_list s)
 
 	str = va_arg(s, char *);
 
-	if (str == NULL)
+	if (!str)
 		str = "(nil)";
 	printf("%s", str);
 }
@@ -43,8 +43,8 @@ void print_all(const char * const format, ...)
 	};
 
 	va_list print_args;
-	unsigned int a = 0, i = 0;
-	char *separator;
+	int a = 0, i = 0;
+	char *separator = NULL;
 
 	va_start(print_args, format);
 
