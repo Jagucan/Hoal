@@ -8,7 +8,7 @@
 
 void print_char(va_list c)
 {
-	printf("%s", va_arg(c, char));
+	printf("%d", va_arg(c, int));
 }
 
 void print_int(va_list i)
