@@ -7,17 +7,17 @@
 
 void print_all(const char * const format, ...)
 {
+	va_list print_args;
+
 	int a = 0;
 	char *str = NULL;
-	char *separator;
-
-	va_list print_args;
+	char *separator = "";
 
 	va_start(print_args, format);
 
 	while (format && format[a])
 	{
-		switch (*(print_args + a))
+		switch (format[a])
 		{
 			case 'c':
 				printf("%s%d", separator, va_arg(print_args, int));
