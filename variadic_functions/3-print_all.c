@@ -7,11 +7,11 @@
 
 void print_all(const char * const format, ...)
 {
-	va_list print_args;
-
 	int a = 0;
 	char *str = NULL;
-	char *separator = NULL;
+	char *separator;
+
+	va_list print_args;
 
 	va_start(print_args, format);
 
