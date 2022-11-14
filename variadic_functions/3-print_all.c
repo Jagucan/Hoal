@@ -8,7 +8,7 @@ void print_all(const char * const format, ...)
 	va_list print_args;
 	int a = 0;
 	char *str = NULL, *separator = "";
-	va_start(print_args, format);
+	va_start (print_args, format);
 	while (format && format[a])
 	{
 		switch (format[a])
