@@ -10,14 +10,14 @@ void print_all(const char * const format, ...)
 	va_list print_args;
 
 	int a = 0;
-	char *str;
-	char *separator = " ";
+	char *str = NULL;
+	char *separator = NULL;
 
 	va_start(print_args, format);
 
-	while (format != NULL && format[a] != NULL)
+	while (format != '\0' && *(format + a) != '\0')
 	{
-		switch (print_args[a])
+		switch (*(print_args + a))
 		{
 			case 'c':
 				printf("%s%d", separator, va_arg(print_args, int));
