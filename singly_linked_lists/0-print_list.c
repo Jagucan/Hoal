@@ -12,7 +12,7 @@ size_t print_list(const list_t *h)
 
 	if (!h)
 		return (n_node);
-	
+
 	while (h)
 	{
 		if (h->str == NULL)
