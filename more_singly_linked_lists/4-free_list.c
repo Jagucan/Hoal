@@ -5,14 +5,14 @@
  * @head: Pointer to list.
 */
 
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
-	list_t *aux;
+	listint_t *aux;
 
 	while (head)
 	{
 		aux = head->next;
-		free(head->str);
+		free(head->n);
 		free(head);
 		head = aux;
 	}
