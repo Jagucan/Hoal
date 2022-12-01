@@ -3,7 +3,7 @@
 /**
  * add_nodeint_end - Adds a new node at the end of a list.
  * @head: Pointer to the head of the list.
- * @n: String to add to the list.
+ * @n: Elements to add to the list.
  * Return: Return  the address of the new element, or NULL if it failed.
 */
 
