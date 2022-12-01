@@ -7,43 +7,31 @@
  * Return: Return  the address of the new element, or NULL if it failed.
 */
 
-list_t *add_node_end(list_t **head, const char *str)
+
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	list_t *new, *last;
-	char *dup;
-	int len = 0;
+	listint_t *n_node, *l_node;
+
+	n_node = (listint_t *)malloc(sizeof(listint_t));
+	if (n_node == NULL)
+		return (NULL);
+
+	n_node->n = n;
+	n_node->next = NULL;
 
 	if (!head)
-		head = &new;
-
-	new = (list_t *)malloc(sizeof(list_t));
-	if (!new)
-		return (NULL);
-
-	dup = strdup(str);
-	if (!dup)
-	{
-		free(new);
-		return (NULL);
-	}
-
-	while (str[len])
-		len++;
-
-	new->str = dup;
-	new->len = len;
-	new->next = NULL;
+		head = &n_node;
 
 	if (!(*head))
-		*head = new;
+		*head = n_node;
 
 	else
 	{
-		while (last->next)
-			last = last->next;
-		last->next = new;
+		while (l_node->next)
+			l_node = l_node->next;
+		l_node->next = n_node;
 	}
 
-	last = *head;
-	return (last);
+	l_node = *head;
+	return (l_node);
 }
