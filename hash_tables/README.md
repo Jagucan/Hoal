@@ -1,1 +1,1 @@
-new tables
+C - Hash tables
