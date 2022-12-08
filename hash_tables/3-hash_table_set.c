@@ -19,14 +19,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 
 	value_dup = strdup(value);
-	if (!value_dup)
-	{
-		free(node);
-		return (0);
-	}
-
 	key_dup = strdup(key);
-	if (!key_dup)
+	if (!value_dup || !key_dup)
 	{
 		free(node);
 		return (0);
