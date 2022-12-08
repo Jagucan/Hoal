@@ -21,7 +21,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	node = malloc(sizeof(hash_node_t));
 	if (!node)
-		return (0);
+		return;
 
 	node->key = key_dup;
 	node->value = value_dup;
