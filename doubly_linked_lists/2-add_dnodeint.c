@@ -1,5 +1,7 @@
 #include "lists.h"
 
+size_t _print_dlistint_backward(const dlistint_t *h);
+
 /**
  * add_dnodeint - Adds a new node at the beginning of a list.
  * @head: Pointer to the head of the list.
