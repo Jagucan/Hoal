@@ -14,14 +14,25 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *node = NULL;
 	char *value_dup, *key_dup;
 
-	value_dup = strdup(value);
-	key_dup = strdup(key);
-
-	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
-
 	node = malloc(sizeof(hash_node_t));
 	if (!node)
 		return (0);
+
+	value_dup = strdup(value);
+	if (!value_dup)
+	{
+		free(node);
+		return (0);
+	}
+
+	key_dup = strdup(key);
+	if (!key_dup)
+	{
+		free(node);
+		return (0);
+	}
+
+	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 
 	node->key = key_dup;
 	node->value = value_dup;
