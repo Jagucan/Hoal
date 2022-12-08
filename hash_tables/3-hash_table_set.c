@@ -17,7 +17,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	value_dup = strdup(value);
 	key_dup = strdup(key);
 
-	index = hash_djb2((const unsigned char *)key_dup) % (ht->size); 
+	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 
 	node = malloc(sizeof(hash_node_t));
 
