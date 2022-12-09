@@ -26,6 +26,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	}
 
+	if (!ht)
+		return (NULL);
+
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 
 	node->key = key_dup;
