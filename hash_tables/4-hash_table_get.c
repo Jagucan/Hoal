@@ -4,7 +4,7 @@
  * hash_table_get - Retrieves a value associated with a key.
  * @ht: Is the hash table you want to look into.
  * @key: Is the key.
- * Returns: The value associated with the element, or NULL.
+ * Return: The value associated with the element, or NULL.
 */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
@@ -17,10 +17,9 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	key_dup = strdup(key);
-	if(!key_dup)
+	if (!key_dup)
 		return (NULL);
 
-	node = malloc(sizeof(hash_node_t));
 	if (!node)
 		return (NULL);
 
