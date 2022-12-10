@@ -10,7 +10,7 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	hash_node_t *node = NULL;
-	unsigned long int index;
+	unsigned long int index = 0;
 	char *key_dup = NULL;
 
 	if (!ht)
@@ -24,7 +24,6 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
-
 	ht->array[index] = node;
 
 	while (node != NULL)
