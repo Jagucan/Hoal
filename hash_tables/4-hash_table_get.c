@@ -24,7 +24,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
-	ht->array[index] = node;
+	node = ht->array[index];
 
 	while (node != NULL)
 	{
