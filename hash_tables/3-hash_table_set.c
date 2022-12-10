@@ -20,11 +20,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	value_dup = strdup(value);
 	key_dup = strdup(key);
-	if (!value_dup || !key_dup || !ht)
+	if (!value_dup || !key_dup)
 	{
 		free(node);
 		return (0);
 	}
+
+	if (!ht)
+		return (0);
 
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 
@@ -34,9 +37,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	if (ht->array[index] && strcmp(ht->array[index]->key, key_dup) != 0)
 		node->next = ht->array[index];
-	
-	if (ht->array[index])
+
+	if (ht->array[index] = NULL)
+	{
+		free(ht->array[index]->key);
+		free(ht->array[index]->value);
 		free(ht->array[index]);
+	}
 
 	ht->array[index] = node;
 
