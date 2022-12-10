@@ -9,9 +9,9 @@
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	hash_node_t *node = NULL;
+	hash_node_t *node;
 	unsigned long int index = 0;
-	char *key_dup = NULL;
+	char *key_dup;
 
 	if (!ht)
 		return (NULL);
