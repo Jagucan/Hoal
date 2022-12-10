@@ -20,9 +20,6 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (!key_dup)
 		return (NULL);
 
-	if (!node)
-		return (NULL);
-
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 	ht->array[index] = node;
 
