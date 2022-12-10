@@ -38,7 +38,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht->array[index] && strcmp(ht->array[index]->key, key_dup) != 0)
 		node->next = ht->array[index];
 
-	if (ht->array[index] = NULL)
+	if (ht->array[index])
 	{
 		free(ht->array[index]->key);
 		free(ht->array[index]->value);
