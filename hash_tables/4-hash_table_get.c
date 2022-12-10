@@ -27,10 +27,10 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	index = hash_djb2((const unsigned char *)key_dup) % (ht->size);
 	ht->array[index] = node;
 
-	if (node)
+	while (node != NULL)
 	{
 		if (strcmp(node->key, key_dup) != 0)
-			return(node->value);
+			return (node->value);
 		node = node->next;
 	}
 
