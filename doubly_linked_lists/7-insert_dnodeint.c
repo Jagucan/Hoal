@@ -8,7 +8,7 @@
  * Return: the address of the new node.
  */
 
-dlistint_t *insert_nodeint_at_index(dlistint_t **head, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n)
 {
 	dlistint_t *node, *cop_head = *head, *aux = *head;
 	unsigned int a, len = 0;
