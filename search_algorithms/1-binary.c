@@ -15,8 +15,8 @@ int binary_search(int *array, size_t size, int value)
 	int mid = 0;
 
 	for (mid = 0; l_limit <= u_limit; mid++)
-	{	
-		mid = (l_limit + u_limit) / 2;	
+	{
+		mid = (l_limit + u_limit) / 2;
 
 		if (array[mid] == value)
 			return (mid);
@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 		else if (array[mid] > value)
 			u_limit = mid - 1;
 
-		else 
+		else
 			l_limit = mid + 1;
 	}
 
